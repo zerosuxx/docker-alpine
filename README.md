@@ -17,3 +17,13 @@
 - `gettext` (envsubst)
 - `iproute2` (ip)
 - `dumb-init`
+
+## build
+```shell
+$ docker build -t zerosuxx/alpine .
+```
+
+## run
+```shell
+$ docker run --rm -it zerosuxx/alpine bash
+```
