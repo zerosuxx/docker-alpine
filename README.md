@@ -12,6 +12,7 @@
 - `curl`
 - `bash-completion`
 - `jq`
+- `yq`
 - `openssh-client`
 - `gettext` (envsubst)
 - `iproute2` (ip)
