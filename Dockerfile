@@ -14,6 +14,7 @@ RUN apk add --no-cache --update \
     gettext \
     iproute2 \
     dumb-init \
+    tzdata \
     && rm -rf /tmp/* /var/cache/apk/*
 
 RUN ([[ `arch` == 'x86_64' ]] && echo "amd64" || echo "arm64") > /arch

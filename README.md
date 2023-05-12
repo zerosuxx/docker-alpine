@@ -17,6 +17,7 @@
 - `gettext` (envsubst)
 - `iproute2` (ip)
 - `dumb-init`
+- `tzdata`
 
 ## build
 ```shell
