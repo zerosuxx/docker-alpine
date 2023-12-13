@@ -15,6 +15,7 @@ RUN apk add --no-cache --update \
     iproute2 \
     dumb-init \
     tzdata \
+    openssl \
     && rm -rf /tmp/* /var/cache/apk/*
 
 RUN ([[ `arch` == 'x86_64' ]] && echo "amd64" || echo "arm64") > /arch
